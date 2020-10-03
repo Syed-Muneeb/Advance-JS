@@ -23,19 +23,19 @@ console.log("hello")
 
 // // call methode 
 
-const mockingbird = {
+// const mockingbird = {
 
-    title : "To kill a mocking bird",
-    describe : function(){
+//     title : "To kill a mocking bird",
+//     describe : function(){
 
-        console.log(this );
-    }
-}
+//         console.log(this );
+//     }
+// }
 
-const another = {
+// const another = {
 
-        title : "Pride and prejudice"
-}
+//         title : "Pride and prejudice"
+// }
 
 // function test (){
 
@@ -45,7 +45,7 @@ const another = {
 // test.call(another);
 
 // mockingbird.describe()
-mockingbird.describe.call(another);
+// mockingbird.describe.call(another);
 
 
 // apply 
@@ -84,3 +84,18 @@ mockingbird.describe.call(another);
 
 // let get = multiply.apply(obj);
 // console.log(get)
+
+
+// let obj = {
+
+//     num1 : 4,
+//     num2 : 6
+// }
+
+// function multiply () {
+
+//      console.log(this)
+// }
+
+// let get = multiply.bind(obj);
+// get()
