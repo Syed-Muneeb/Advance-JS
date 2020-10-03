@@ -75,7 +75,7 @@ mockingbird.describe.call(another);
 
 //     num1 : 5,
 //     num2 : 4
-// }
+// }    
 
 // function multiply(){
 

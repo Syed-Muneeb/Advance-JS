@@ -72,5 +72,6 @@ const change = {
 
 driver.displayName.call(change)
 driver.displayName.apply(change)
+
 var get = driver.displayName.bind(change);
 get()
