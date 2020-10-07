@@ -93,7 +93,7 @@ fetch("https://jsonplaceholder.typicode.com/posts?userId=1")
 .then(data => console.log(data))
 
 
-fetch("https://jsonplaceholder.typicode.com/posts/1/comments")
+fetch("https://jsonplaceholder.typicode.com/users/1/albums?id=6")
 .then(response => response.json())
 .then(data => console.log(data))
 

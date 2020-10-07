@@ -166,5 +166,40 @@
 
 
 
+let getPost = async ()=> {
+
+
+    try{
+
+        let postResponse = await fetch("https://jsonplaceholder.typicode.com/posts")
+        let userResponse = await fetch("https://jsonplaceholder.typicode.com/users");
+
+        
+        let postData = await postResponse.json()
+        let userData = await userResponse.json()
+
+        let title = postData.map(post => {
+
+                return {
+
+                    title : post.title
+                }
+        });
+        console.log(title)
+    
+        console.log("postResponse =====> ", postData)
+        console.log("userResponse =====> ", userData)
+    }
+    
+    catch (err) {
+
+        console.log(err)
+    }
+}
+
+getPost()
+
+
+
 
 
