@@ -1,15 +1,38 @@
 console.log("hello")
 
-let obj1 = {
 
-    firstName : "Syed"
-}
+// let obj = {
 
-let obj2 = {
+//     name : "muneeb",
+//     nestObj : {
 
-    lastName : "Muneeb",
-    age : 17
-}
+//         age : 18
+//     }
+// }
+
+// let obj2 = {
+
+//     ...obj.nestObj
+// }
+
+// console.log(obj,obj2)
+// obj2.nestObj.age = 17;
+
+// obj2.name = "Syed"
+// console.log(obj,obj2)
+
+
+
+// let obj1 = {
+
+//     firstName : "Syed"
+// }
+
+// let obj2 = {
+
+//     lastName : "Muneeb",
+//     age : 17
+// }
 
 // let finalObj = {
 

@@ -57,6 +57,7 @@ class Dealer extends Car{
 
         this.color = "black";
     }
+    
     static value = "some static value"
     static printName = () => {
 
@@ -66,9 +67,9 @@ class Dealer extends Car{
 
 let dealer1 = new Dealer("Haseeb Motors", "KHI", "XLI", 1300, "grey",2020);
 console.log(dealer1)
+
 dealer1.carColor() 
 dealer1.changeColor()
 
 console.log(Dealer.value)
-
 Dealer.printName()
